@@ -1,0 +1,136 @@
+/*
+external ,scss,inline are 3 styles of css , 4th way is material ui
+
+pros of inline css saving time coz we were writing css on the go 
+
+material ui is maintained by google 
+ other ui to be used are base ui ,  chakra ui, ant ui  maintained by ant community
+
+  in systemesign interveiw weshd tell which desgin lib we  wil be using 
+pros 
+   consistency
+    at the end of the day this libis apackage
+    we can use many lib/package in our project but its not recommended and not a good practises
+   we canbuild everythingsoo fast
+cons of using this lib 
+    bundle size heavy
+    loose a lot of control ,on how the design looks 
+    customization is tuff
+
+
+    we can use styledcomponenents for css , and use it like props 
+
+    one more way is tailwind css framework  , we use talwind css 
+
+    pros of tailwindcss 
+    -css on the go (in the same file )
+    -re usability
+    -less bundle size 
+    -flexible ui (customizable) , material ui werre not customizable, we cn have control in our tailwind css
+    -tailwind css has a very good documentation
+how to inject tilwind css into our project
+ 1. cdn link
+ they are nothingbut package , so we can just load it by using <script src= "https://cdn.tailwindcss.com" ></script>
+
+*/
+
+/*when using tailwind css we delete all the css inside our index file , so delete all here i l comment only for my purpose not sir said*/
+/*u need use only these 3 lines in cssfile */
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+.header
+{
+    display: flex;
+    justify-content: space-between ;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    
+}
+
+
+
+.nav-items > ul{
+   list-style-type: none;
+   display:flex;
+
+}
+.nav-items > ul > li {
+    padding: 10px;
+    
+ }
+
+ .logo
+ {
+    width: 170px;
+    height: 120px;
+    padding-left: 15px;
+
+ }
+
+ .search-container{
+
+   margin :10px;
+ }
+ .login
+ {
+  /* display: inline-block; /*to enable the ability to add width and height to our button.*/
+/*background-color: rgb(61, 22, 22);*/
+ /*makes a bit more room for our button in all four sides.*/
+ /*
+width: 70px ;/*gives a 200px width.*/
+/*
+height: 50px ;
+margin: 20px;
+color: #ffffff; /*makes our Submit text white.*/
+
+/*
+text-align: center;
+border-radius: 15px;
+ }
+
+ .card {
+    width:150px;
+   
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin :10px;
+
+ }
+ .restaurant-list
+ {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .card >img {
+    width:100%;
+ }
+
+ .shimmer-card
+ {
+   width:150px;
+   height: 200px;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    margin :10px;
+
+ }
+
+ .menu{
+   display: flex;
+ }
+
+ .search-btn{
+  background-color: green;
+
+ }
+ */
