@@ -1,0 +1,35 @@
+{
+  "name": "namaste_react_21_01",
+  "version": "1.0.0",
+  "description": "lets get classy - class based components",
+  "main": "Element7.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index_7.html",
+    "build": "parcel build index_7.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mraveendra001/React_Namaste.git"
+  },
+  "author": "Meghana R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mraveendra001/React_Namaste/issues"
+  },
+  "homepage": "https://github.com/mraveendra001/React_Namaste#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
